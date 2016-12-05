@@ -1,10 +1,16 @@
 var prompt = require('prompt');
 
-var board = [
+var TicTacToe = function(){
+	
+	this.counter = 1;
+
+	this.board = [
 		['0','1','2'], 
 		['3','4','5'],
 		['6','7','8']
 	];
+}
+
 
 prompt.start();
 
